@@ -1,0 +1,4 @@
+# This is an example of a configuration file that should be present in lasker folder
+# It specifies the location of a chess engine, authorisation token and probably also lots of other stuff
+lichess_token: your lichess personal access API token
+stockfish:     your Stockfish folder
