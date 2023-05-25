@@ -1,4 +1,4 @@
-# This is an example of a configuration file that should be present in lasker folder
+# This is an example of a configuration file that should be named 'configuration.yaml' and be present in lasker folder
 # It specifies the location of a chess engine, lichess username and probably also lots of other stuff
 lichess_username: username
 stockfish:        your Stockfish folder
