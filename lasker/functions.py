@@ -9,3 +9,4 @@ def get_last_game_of_user(url, username): # returns PGN of a last game
     url = url + username
     game = requests.get(url, params={'max':1})
     return game.text # Maybe it would be better if function returns a dictionary instead of string PDN
+  # Must. Write. Tests.
