@@ -23,6 +23,6 @@ def get_list_of_moves(game): # returns a list of moves
         moves.append(move)
     return moves
 
-def is_best(move, board, engine, depth=18, *args, **kvargs): # checks if a move is the best
-    evaluation = engine.analyse(board, chess.engine.Limit(depth=depth, *args, **kvargs))
+def is_best(move, board, engine, *args, depth=18, **kvargs): # checks if a move is the best
+    evaluation = engine.analyse(board, chess.engine.Limit(*args, depth=18, **kvargs))
     return evaluation['pv'][0] == move
